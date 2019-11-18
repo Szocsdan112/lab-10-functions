@@ -10,7 +10,7 @@
       // an iterative example of the factorial function
       var total = 1;
       for(i = 0; i < n; i = i + 1){
-        total = total * (n - 1);
+        total = total * (n - i);
 
         console.log("current n is" + n);
         // first time total equals 1
@@ -23,7 +23,7 @@
       var userstring = prompt("Number pls");
       var usernum = parseInt(userstring);
 
-      console.log(usernum + "! is" + factorial(usernum));
+      console.log(usernum + "! is " + factorial(usernum));
 
 
 
